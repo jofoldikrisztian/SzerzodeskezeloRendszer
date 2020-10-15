@@ -83,6 +83,16 @@ namespace SzerzodeskezeloRendszer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Excavator_Landfill_color_5121 {
+            get {
+                object obj = ResourceManager.GetObject("Excavator_Landfill_color_5121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap excavator_small {
             get {
                 object obj = ResourceManager.GetObject("excavator_small", resourceCulture);
@@ -97,6 +107,76 @@ namespace SzerzodeskezeloRendszer.Properties {
             get {
                 object obj = ResourceManager.GetObject("excavator_small_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap excavator_small_21 {
+            get {
+                object obj = ResourceManager.GetObject("excavator_small_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap excavator_small1 {
+            get {
+                object obj = ResourceManager.GetObject("excavator_small1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap excavator1 {
+            get {
+                object obj = ResourceManager.GetObject("excavator1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] icons8_document {
+            get {
+                object obj = ResourceManager.GetObject("icons8_document", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] icons8_document1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_document1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] icons8_file {
+            get {
+                object obj = ResourceManager.GetObject("icons8_file", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] icons8_file1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_file1", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

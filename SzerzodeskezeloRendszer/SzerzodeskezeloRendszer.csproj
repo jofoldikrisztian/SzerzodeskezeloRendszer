@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SLRDbConnector">
+      <HintPath>C:\Users\krisz\Downloads\SLRDbConnector\SLRDbConnector.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,15 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SzerzodeskezeloFrm.cs">
+    <Compile Include="Forms\Form_Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SzerzodeskezeloFrm.Designer.cs">
+    <Compile Include="Forms\Form_Dashboard.Designer.cs">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SzerzodeskezeloFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SzerzodeskezeloFrm.Designer.cs">
       <DependentUpon>SzerzodeskezeloFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="SzerzodeskezeloFrm.resx">
+    <EmbeddedResource Include="Forms\Form_Dashboard.resx">
+      <DependentUpon>Form_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SzerzodeskezeloFrm.resx">
       <DependentUpon>SzerzodeskezeloFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -76,6 +88,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\icons8_document.pdf" />
+    <None Include="Resources\icons8_file.pdf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
