@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SzerzodeskezeloRendszer
 {
-    public partial class Form1 : Form
+    public partial class SzerzodeskezeloFrm : Form
     {
-        public Form1()
+        public SzerzodeskezeloFrm()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace SzerzodeskezeloRendszer
 {
-    partial class Form1
+    partial class SzerzodeskezeloFrm
     {
         /// <summary>
         /// Required designer variable.
